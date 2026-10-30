@@ -25,8 +25,8 @@ prilohy/
 
 ## vyklad.md – osnova
 1. `# Název kapitoly`
-2. **Co se naučíš** – 3–5 odrážek.
-3. **Co potřebuješ znát** – odkazy na předchozí kapitoly (u první kapitoly vynech).
+2. **Co se naučíte** – 3–5 odrážek.
+3. **Co potřebujete znát** – odkazy na předchozí kapitoly (u první kapitoly vynech).
 4. Výklad rozdělený na sekce `##`; každá sekce: vysvětlení → definice/pravidlo → řešený příklad.
 5. **Shrnutí** – nejdůležitější pravidla a vzorce v bodech.
 6. Odkaz na `priklady.md`.
@@ -45,7 +45,7 @@ prilohy/
 - Proměnné kurzivou (LaTeX to dělá sám), jednotky ne: `$5\ \mathrm{cm}$`.
 
 ## Styl textu
-- Tykání, krátké věty, jeden nový pojem najednou.
+- Čtenáři vykat (`naučíte se`, `všimněte si`), nikdy netykat. Krátké věty, jeden nový pojem najednou.
 - Definice tučně při prvním výskytu: **zlomek je …**
 - Upozornění na časté chyby jako citace: `> ⚠️ Pozor: …`
 - Žádné odkazy na externí stránky, které se mohou změnit; učebnice má být soběstačná.
