@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 215" width="520" height="215" font-family="sans-serif" font-size="18">
+  <title>Tři stejné pruhy: 1/2, 2/4 a 4/8 mají vybarvenou stejnou část</title>
+  <!-- bílé pozadí kvůli tmavému režimu GitHubu -->
+  <rect width="520" height="215" fill="#ffffff"/>
+  <rect x="20.0" y="20" width="200.0" height="45" fill="#f0b27a" stroke="#222" stroke-width="2"/>
+  <rect x="220.0" y="20" width="200.0" height="45" fill="#ffffff" stroke="#222" stroke-width="2"/>
+  <text x="450" y="50" fill="#222">1/2</text>
+  <rect x="20.0" y="85" width="100.0" height="45" fill="#f0b27a" stroke="#222" stroke-width="2"/>
+  <rect x="120.0" y="85" width="100.0" height="45" fill="#f0b27a" stroke="#222" stroke-width="2"/>
+  <rect x="220.0" y="85" width="100.0" height="45" fill="#ffffff" stroke="#222" stroke-width="2"/>
+  <rect x="320.0" y="85" width="100.0" height="45" fill="#ffffff" stroke="#222" stroke-width="2"/>
+  <text x="450" y="115" fill="#222">2/4</text>
+  <rect x="20.0" y="150" width="50.0" height="45" fill="#f0b27a" stroke="#222" stroke-width="2"/>
+  <rect x="70.0" y="150" width="50.0" height="45" fill="#f0b27a" stroke="#222" stroke-width="2"/>
+  <rect x="120.0" y="150" width="50.0" height="45" fill="#f0b27a" stroke="#222" stroke-width="2"/>
+  <rect x="170.0" y="150" width="50.0" height="45" fill="#f0b27a" stroke="#222" stroke-width="2"/>
+  <rect x="220.0" y="150" width="50.0" height="45" fill="#ffffff" stroke="#222" stroke-width="2"/>
+  <rect x="270.0" y="150" width="50.0" height="45" fill="#ffffff" stroke="#222" stroke-width="2"/>
+  <rect x="320.0" y="150" width="50.0" height="45" fill="#ffffff" stroke="#222" stroke-width="2"/>
+  <rect x="370.0" y="150" width="50.0" height="45" fill="#ffffff" stroke="#222" stroke-width="2"/>
+  <text x="450" y="180" fill="#222">4/8</text>
+</svg>
