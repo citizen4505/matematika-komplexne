@@ -1,0 +1,1 @@
+# Slovníček pojmů
