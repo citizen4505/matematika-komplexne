@@ -58,4 +58,4 @@ prilohy/
 ## Git
 - Commit po každé ucelené změně (jedna kapitola nebo jeden soubor), zpráva česky v rozkazovacím způsobu:
   `Přidej výklad kapitoly 02-zlomky`.
-- Před pushem na `main` nech změny schválit autorem.
+- Push na `main` prováděj sám, bez čekání na schválení autorem.
