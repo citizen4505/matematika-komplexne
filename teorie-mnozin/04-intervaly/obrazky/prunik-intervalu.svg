@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 195" width="600" height="195" font-family="sans-serif" font-size="16">
+  <title>Intervaly A od 0 do 4 a B od 2 do 6 nad jednou osou; jejich průnik je od 2 do 4</title>
+  <rect width="600" height="195" fill="#ffffff"/>
+  <defs><marker id="sipka" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker></defs>
+  <line x1="25" y1="150" x2="555" y2="150" stroke="#222" stroke-width="2" marker-end="url(#sipka)"/>
+  <line x1="50" y1="144" x2="50" y2="156" stroke="#222" stroke-width="2"/>
+  <text x="50" y="175" text-anchor="middle" fill="#222">−1</text>
+  <line x1="110" y1="144" x2="110" y2="156" stroke="#222" stroke-width="2"/>
+  <text x="110" y="175" text-anchor="middle" fill="#222">0</text>
+  <line x1="170" y1="144" x2="170" y2="156" stroke="#222" stroke-width="2"/>
+  <text x="170" y="175" text-anchor="middle" fill="#222">1</text>
+  <line x1="230" y1="144" x2="230" y2="156" stroke="#222" stroke-width="2"/>
+  <text x="230" y="175" text-anchor="middle" fill="#222">2</text>
+  <line x1="290" y1="144" x2="290" y2="156" stroke="#222" stroke-width="2"/>
+  <text x="290" y="175" text-anchor="middle" fill="#222">3</text>
+  <line x1="350" y1="144" x2="350" y2="156" stroke="#222" stroke-width="2"/>
+  <text x="350" y="175" text-anchor="middle" fill="#222">4</text>
+  <line x1="410" y1="144" x2="410" y2="156" stroke="#222" stroke-width="2"/>
+  <text x="410" y="175" text-anchor="middle" fill="#222">5</text>
+  <line x1="470" y1="144" x2="470" y2="156" stroke="#222" stroke-width="2"/>
+  <text x="470" y="175" text-anchor="middle" fill="#222">6</text>
+  <line x1="530" y1="144" x2="530" y2="156" stroke="#222" stroke-width="2"/>
+  <text x="530" y="175" text-anchor="middle" fill="#222">7</text>
+  <line x1="110" y1="60" x2="350" y2="60" stroke="#1f5fa8" stroke-width="6"/>
+  <circle cx="110" cy="60" r="7" fill="#1f5fa8" stroke="#1f5fa8" stroke-width="3"/>
+  <circle cx="350" cy="60" r="7" fill="#1f5fa8" stroke="#1f5fa8" stroke-width="3"/>
+  <line x1="230" y1="90" x2="470" y2="90" stroke="#c0392b" stroke-width="6"/>
+  <circle cx="230" cy="90" r="7" fill="#ffffff" stroke="#c0392b" stroke-width="3"/>
+  <circle cx="470" cy="90" r="7" fill="#ffffff" stroke="#c0392b" stroke-width="3"/>
+  <line x1="230" y1="125" x2="350" y2="125" stroke="#1f8a3b" stroke-width="6"/>
+  <circle cx="230" cy="125" r="7" fill="#ffffff" stroke="#1f8a3b" stroke-width="3"/>
+  <circle cx="350" cy="125" r="7" fill="#1f8a3b" stroke="#1f8a3b" stroke-width="3"/>
+  <text x="20" y="66" fill="#1f5fa8" font-weight="bold">A</text>
+  <text x="20" y="96" fill="#c0392b" font-weight="bold">B</text>
+  <text x="395" y="131" fill="#1f8a3b" font-weight="bold">A ∩ B = (2, 4⟩</text>
+</svg>
