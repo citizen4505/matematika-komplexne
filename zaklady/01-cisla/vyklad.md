@@ -13,6 +13,8 @@
 
 $$\mathbb{N} = \{1, 2, 3, 4, \dots\}$$
 
+**Množina** je soubor prvků, zde čísel; zapisuje se do složených závorek. Podrobně se množinám věnuje oblast [Základy teorie množin](../../teorie-mnozin/01-mnozina-a-jeji-zapis/vyklad.md).
+
 Tři tečky znamenají „a tak dál bez konce“. Největší přirozené číslo neexistuje, protože ke každému lze přičíst 1.
 
 Číslo **nula** (0) vyjadřuje, že nemáme nic. V české škole se mezi přirozená čísla nepočítá. Když ji chceme přidat, píšeme $\mathbb{N}_0 = \{0, 1, 2, 3, \dots\}$.

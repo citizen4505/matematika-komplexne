@@ -49,3 +49,18 @@
 | $\frac{1}{\sqrt{a}} = \frac{\sqrt{a}}{a}$ | usměrnění zlomku |
 | $a^{\frac{1}{n}} = \sqrt[n]{a}$, $\ a^{\frac{m}{n}} = \sqrt[n]{a^m}$ | odmocnina jako mocnina |
 | $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$ | číselné obory |
+
+## Teorie množin
+→ kapitoly [01](../teorie-mnozin/01-mnozina-a-jeji-zapis/vyklad.md) · [02](../teorie-mnozin/02-vztahy-mezi-mnozinami/vyklad.md) · [03](../teorie-mnozin/03-operace-s-mnozinami/vyklad.md) · [04](../teorie-mnozin/04-intervaly/vyklad.md) · [05](../teorie-mnozin/05-kartezsky-soucin-a-mohutnost/vyklad.md)
+
+| vzorec | význam |
+|---|---|
+| $B \subset A$ | každý prvek $B$ je prvkem $A$ |
+| $A = B \iff A \subset B$ a $B \subset A$ | rovnost množin |
+| množina s $n$ prvky má $2^n$ podmnožin | počet podmnožin |
+| $A \cup B$, $\ A \cap B$, $\ A \setminus B$, $\ A' = Z \setminus A$ | sjednocení, průnik, rozdíl, doplněk |
+| $(A \cup B)' = A' \cap B'$, $\ (A \cap B)' = A' \cup B'$ | De Morganovy zákony |
+| $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$ | distributivní zákon |
+| $\lvert A \cup B \rvert = \lvert A \rvert + \lvert B \rvert - \lvert A \cap B \rvert$ | počet prvků sjednocení |
+| $\langle a, b \rangle$: $a \le x \le b$; $\ (a, b)$: $a < x < b$ | uzavřený a otevřený interval |
+| $\lvert A \times B \rvert = \lvert A \rvert \cdot \lvert B \rvert$ | počet prvků kartézského součinu |
