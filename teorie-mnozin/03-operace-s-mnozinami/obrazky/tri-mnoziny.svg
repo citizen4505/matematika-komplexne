@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 330" width="360" height="330" font-family="sans-serif" font-size="18">
+  <title>Vennův diagram tří množin A, B, C se sedmi oblastmi</title>
+  <rect width="360" height="330" fill="#ffffff"/>
+  <rect x="10" y="10" width="340" height="310" fill="none" stroke="#222" stroke-width="2"/>
+  <text x="22" y="34" font-weight="bold">Z</text>
+  <!-- tři kruhy, poloměr 85 -->
+  <circle cx="140" cy="125" r="85" fill="#7fb3e6" fill-opacity="0.35" stroke="#1f5fa8" stroke-width="2"/>
+  <circle cx="220" cy="125" r="85" fill="#f2a97c" fill-opacity="0.35" stroke="#c0392b" stroke-width="2"/>
+  <circle cx="180" cy="195" r="85" fill="#9fd4a8" fill-opacity="0.35" stroke="#1f8a3b" stroke-width="2"/>
+  <text x="62" y="58" font-weight="bold" fill="#1f5fa8">A</text>
+  <text x="285" y="58" font-weight="bold" fill="#c0392b">B</text>
+  <text x="250" y="295" font-weight="bold" fill="#1f8a3b">C</text>
+  <!-- čísla oblastí: 1 jen A, 2 jen B, 3 jen C, 4 A∩B, 5 A∩C, 6 B∩C, 7 všechny -->
+  <g text-anchor="middle" fill="#222" font-size="15">
+    <text x="105" y="110">jen A</text><text x="255" y="110">jen B</text>
+    <text x="180" y="250">jen C</text>
+    <text x="180" y="100">A∩B</text>
+    <text x="135" y="195">A∩C</text><text x="225" y="195">B∩C</text>
+    <text x="180" y="160" font-weight="bold">vše</text>
+  </g>
+</svg>

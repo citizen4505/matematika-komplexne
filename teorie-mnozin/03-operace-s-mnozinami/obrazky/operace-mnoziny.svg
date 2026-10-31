@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 210" width="660" height="210" font-family="sans-serif" font-size="16">
+  <title>Vennovy diagramy: sjednocení, průnik a rozdíl množin A a B</title>
+  <!-- bílé pozadí kvůli tmavému režimu GitHubu -->
+  <rect width="660" height="210" fill="#ffffff"/>
+  <defs>
+    <!-- kruhy A a B, středy posunuté o 50 px, poloměr 55 -->
+    <clipPath id="kA1"><circle cx="85" cy="100" r="55"/></clipPath>
+    <clipPath id="kA2"><circle cx="305" cy="100" r="55"/></clipPath>
+    <clipPath id="kA3"><circle cx="525" cy="100" r="55"/></clipPath>
+    <!-- maska pro rozdíl: bílá = vidět, černá (kruh B) = vyříznout -->
+    <mask id="bezB"><rect width="660" height="210" fill="#fff"/><circle cx="575" cy="100" r="55" fill="#000"/></mask>
+  </defs>
+
+  <!-- sjednocení: obarvené oba kruhy -->
+  <circle cx="85" cy="100" r="55" fill="#7fb3e6"/>
+  <circle cx="135" cy="100" r="55" fill="#7fb3e6"/>
+  <!-- průnik: obarvené jen B uvnitř A -->
+  <circle cx="355" cy="100" r="55" fill="#7fb3e6" clip-path="url(#kA2)"/>
+  <!-- rozdíl A \ B: kruh A bez kruhu B -->
+  <circle cx="525" cy="100" r="55" fill="#7fb3e6" mask="url(#bezB)"/>
+
+  <!-- obrysy všech kruhů -->
+  <g fill="none" stroke="#222" stroke-width="2">
+    <circle cx="85" cy="100" r="55"/><circle cx="135" cy="100" r="55"/>
+    <circle cx="305" cy="100" r="55"/><circle cx="355" cy="100" r="55"/>
+    <circle cx="525" cy="100" r="55"/><circle cx="575" cy="100" r="55"/>
+  </g>
+  <!-- popisky kruhů -->
+  <g font-weight="bold" fill="#222">
+    <text x="45" y="45">A</text><text x="165" y="45">B</text>
+    <text x="265" y="45">A</text><text x="385" y="45">B</text>
+    <text x="485" y="45">A</text><text x="605" y="45">B</text>
+  </g>
+  <!-- názvy operací -->
+  <g text-anchor="middle" fill="#222">
+    <text x="110" y="190">sjednocení A ∪ B</text>
+    <text x="330" y="190">průnik A ∩ B</text>
+    <text x="550" y="190">rozdíl A \ B</text>
+  </g>
+</svg>
