@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200" width="560" height="200" font-family="sans-serif" font-size="16">
+  <title>Čtverec 3 × 3 má 9 políček, krychle 3 × 3 × 3 má 27 kostek</title>
+  <!-- bílé pozadí kvůli tmavému režimu GitHubu -->
+  <rect width="560" height="200" fill="#ffffff"/>
+  <!-- čtverec 3×3 = 3² -->
+  <g fill="#7fb3e6" stroke="#222" stroke-width="2">
+    <rect x="40" y="30" width="40" height="40"/><rect x="80" y="30" width="40" height="40"/><rect x="120" y="30" width="40" height="40"/>
+    <rect x="40" y="70" width="40" height="40"/><rect x="80" y="70" width="40" height="40"/><rect x="120" y="70" width="40" height="40"/>
+    <rect x="40" y="110" width="40" height="40"/><rect x="80" y="110" width="40" height="40"/><rect x="120" y="110" width="40" height="40"/>
+  </g>
+  <text x="100" y="180" text-anchor="middle" fill="#222">3² = 3 · 3 = 9</text>
+  <!-- krychle 3×3×3 = 3³: přední stěna, horní a boční stěna v kosoúhlém promítání -->
+  <g stroke="#222" stroke-width="2">
+    <!-- horní stěna -->
+    <polygon points="330,60 450,60 490,20 370,20" fill="#c9dcf2"/>
+    <!-- boční stěna -->
+    <polygon points="450,60 490,20 490,140 450,180" fill="#5a8fc7"/>
+    <!-- přední stěna -->
+    <rect x="330" y="60" width="120" height="120" fill="#7fb3e6"/>
+  </g>
+  <!-- dělicí čáry: přední 3×3, horní a boční po třetinách -->
+  <g stroke="#222" stroke-width="1.5" fill="none">
+    <line x1="370" y1="60" x2="370" y2="180"/><line x1="410" y1="60" x2="410" y2="180"/>
+    <line x1="330" y1="100" x2="450" y2="100"/><line x1="330" y1="140" x2="450" y2="140"/>
+    <line x1="370" y1="60" x2="410" y2="20"/><line x1="410" y1="60" x2="450" y2="20"/>
+    <line x1="343.3" y1="46.7" x2="463.3" y2="46.7"/><line x1="356.7" y1="33.3" x2="476.7" y2="33.3"/>
+    <line x1="463.3" y1="46.7" x2="463.3" y2="166.7"/><line x1="476.7" y1="33.3" x2="476.7" y2="153.3"/>
+    <line x1="450" y1="100" x2="490" y2="60"/><line x1="450" y1="140" x2="490" y2="100"/>
+  </g>
+  <text x="410" y="198" text-anchor="middle" fill="#222">3³ = 3 · 3 · 3 = 27</text>
+</svg>

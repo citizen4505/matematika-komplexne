@@ -4,6 +4,7 @@
 - [Základy](zaklady/)
   - [01 Čísla](zaklady/01-cisla/vyklad.md)
   - [02 Zlomky](zaklady/02-zlomky/vyklad.md)
+  - [03 Mocniny](zaklady/03-mocniny/vyklad.md)
 - [Algebra](algebra/)
 - [Geometrie](geometrie/)
 - [Funkce](funkce/)

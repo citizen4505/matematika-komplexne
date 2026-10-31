@@ -23,3 +23,16 @@
 | $\frac{a}{b} \cdot \frac{c}{d} = \frac{a \cdot c}{b \cdot d}$ | násobení |
 | $\frac{a}{b} : \frac{c}{d} = \frac{a}{b} \cdot \frac{d}{c}$ | dělení |
 | $-\frac{a}{b} = \frac{-a}{b} = \frac{a}{-b}$ | záporný zlomek |
+
+## Mocniny
+→ [kapitola](../zaklady/03-mocniny/vyklad.md)
+
+| vzorec | význam |
+|---|---|
+| $a^n = a \cdot a \cdot \ldots \cdot a$ ($n$ činitelů) | definice mocniny |
+| $a^m \cdot a^n = a^{m+n}$ | násobení mocnin se stejným základem |
+| $a^m : a^n = a^{m-n}$, $\ a \ne 0$ | dělení mocnin se stejným základem |
+| $(a^m)^n = a^{m \cdot n}$ | mocnina mocniny |
+| $(a \cdot b)^n = a^n \cdot b^n$, $\ \left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}$ | mocnina součinu a podílu |
+| $a^0 = 1$, $\ a^{-n} = \frac{1}{a^n}$, $\ a \ne 0$ | nultá a záporná mocnina |
+| $a \cdot 10^n$, $\ 1 \le a < 10$ | zápis velkých a malých čísel |
