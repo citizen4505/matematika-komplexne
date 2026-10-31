@@ -36,3 +36,16 @@
 | $(a \cdot b)^n = a^n \cdot b^n$, $\ \left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}$ | mocnina součinu a podílu |
 | $a^0 = 1$, $\ a^{-n} = \frac{1}{a^n}$, $\ a \ne 0$ | nultá a záporná mocnina |
 | $a \cdot 10^n$, $\ 1 \le a < 10$ | zápis velkých a malých čísel |
+
+## Odmocniny
+→ [kapitola](../zaklady/04-odmocniny/vyklad.md)
+
+| vzorec | význam |
+|---|---|
+| $\sqrt{a} = b \iff b^2 = a,\ b \ge 0$ | definice druhé odmocniny ($a \ge 0$) |
+| $\left(\sqrt{a}\right)^2 = a$, $\ \sqrt{a^2} = \lvert a \rvert$ | odmocnina a mocnina se ruší |
+| $\sqrt{a \cdot b} = \sqrt{a} \cdot \sqrt{b}$ | odmocnina součinu |
+| $\sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}}$, $\ b > 0$ | odmocnina podílu |
+| $\frac{1}{\sqrt{a}} = \frac{\sqrt{a}}{a}$ | usměrnění zlomku |
+| $a^{\frac{1}{n}} = \sqrt[n]{a}$, $\ a^{\frac{m}{n}} = \sqrt[n]{a^m}$ | odmocnina jako mocnina |
+| $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$ | číselné obory |
