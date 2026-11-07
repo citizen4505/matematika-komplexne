@@ -1,0 +1,5 @@
+# nainstalované závislosti a mezivýsledky se necommitují
+node_modules/
+package-lock.json
+ucebnice.html
+*.pdf

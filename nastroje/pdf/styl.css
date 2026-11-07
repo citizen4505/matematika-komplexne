@@ -1,0 +1,54 @@
+/* Tiskový styl učebnice: A4, patkové písmo, každá kapitola na nové stránce */
+@page { size: A4; margin: 22mm 20mm 24mm 22mm; }
+
+body {
+  font-family: "DejaVu Serif", Georgia, serif;
+  font-size: 10.5pt;
+  line-height: 1.5;
+  color: #1a1a1a;
+}
+
+/* titulní strana */
+.titul { height: 240mm; display: flex; flex-direction: column; justify-content: center; text-align: center; break-after: page; }
+.titul h1 { font-family: "DejaVu Sans", sans-serif; font-size: 34pt; color: #1f5fa8; margin: 0 0 8mm; border: none; }
+.titul .podtitul { font-size: 14pt; margin: 0; }
+.titul .datum { margin-top: 30mm; color: #666; font-size: 10pt; }
+
+/* obsah */
+.obsah { break-after: page; }
+.obsah h2 { font-family: "DejaVu Sans", sans-serif; color: #1f5fa8; }
+.obsah ol { list-style: none; padding-left: 0; }
+.obsah ol ol { padding-left: 8mm; margin: 2mm 0 5mm; }
+.obsah li { margin: 1.5mm 0; }
+.obsah-cast > a { font-weight: bold; font-family: "DejaVu Sans", sans-serif; }
+.obsah a { color: #1a1a1a; text-decoration: none; }
+
+/* úvodní strana části */
+.cast { break-before: page; break-after: page; height: 230mm; display: flex; flex-direction: column; justify-content: center; }
+.cast-cislo { font-family: "DejaVu Sans", sans-serif; color: #888; font-size: 14pt; margin: 0; }
+.cast-nazev { font-size: 28pt; border: none !important; color: #1f5fa8; margin: 2mm 0 0; }
+
+/* každý soubor (výklad, příklady, řešení) začíná na nové stránce */
+.soubor { break-before: page; }
+
+h1, h2, h3 { font-family: "DejaVu Sans", sans-serif; color: #1f5fa8; break-after: avoid; }
+h1 { font-size: 20pt; border-bottom: 2px solid #1f5fa8; padding-bottom: 2mm; }
+h2 { font-size: 13.5pt; margin-top: 7mm; }
+h3 { font-size: 11.5pt; }
+
+a { color: #1f5fa8; text-decoration: none; }
+p, li { orphans: 3; widows: 3; }
+
+/* upozornění „⚠️ Pozor“ */
+blockquote { margin: 4mm 0; padding: 2.5mm 4mm; background: #fff6e5; border-left: 4px solid #e0a020; break-inside: avoid; }
+blockquote p { margin: 0; }
+
+table { border-collapse: collapse; margin: 3mm 0; break-inside: avoid; }
+th, td { border: 1px solid #bbb; padding: 1.5mm 3mm; }
+th { background: #eef3f8; }
+
+img { max-width: 100%; display: block; margin: 4mm auto; break-inside: avoid; }
+.katex-display { margin: 3mm 0; break-inside: avoid; }
+.katex { font-size: 1.08em; }
+.chyba-vzorce { color: #c0392b; }
+hr { border: none; border-top: 1px solid #ccc; }

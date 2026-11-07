@@ -18,3 +18,4 @@
 - [Analýza](analyza/)
 - [Pravděpodobnost a statistika](pravdepodobnost-a-statistika/)
 - [Přílohy](prilohy/)
+- [Nástroje](nastroje/) – [sestavení učebnice do PDF](nastroje/pdf/README.md)
