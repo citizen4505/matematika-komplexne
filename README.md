@@ -13,6 +13,7 @@
   - [04 Intervaly](teorie-mnozin/04-intervaly/vyklad.md)
   - [05 Kartézský součin a mohutnost ⭐](teorie-mnozin/05-kartezsky-soucin-a-mohutnost/vyklad.md)
 - [Algebra](algebra/)
+  - [01 Výrazy](algebra/01-vyrazy/vyklad.md)
 - [Geometrie](geometrie/)
 - [Funkce](funkce/)
 - [Analýza](analyza/)

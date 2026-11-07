@@ -64,3 +64,15 @@
 | $\lvert A \cup B \rvert = \lvert A \rvert + \lvert B \rvert - \lvert A \cap B \rvert$ | počet prvků sjednocení |
 | $\langle a, b \rangle$: $a \le x \le b$; $\ (a, b)$: $a < x < b$ | uzavřený a otevřený interval |
 | $\lvert A \times B \rvert = \lvert A \rvert \cdot \lvert B \rvert$ | počet prvků kartézského součinu |
+
+## Výrazy
+→ [kapitola](../algebra/01-vyrazy/vyklad.md)
+
+| vzorec | význam |
+|---|---|
+| $a - (b - c) = a - b + c$ | minus před závorkou mění znaménka |
+| $a(b + c) = ab + ac$ | roznásobení, opačně vytýkání |
+| $(a + b)(c + d) = ac + ad + bc + bd$ | násobení mnohočlenů |
+| $(a + b)^2 = a^2 + 2ab + b^2$ | druhá mocnina součtu |
+| $(a - b)^2 = a^2 - 2ab + b^2$ | druhá mocnina rozdílu |
+| $(a + b)(a - b) = a^2 - b^2$ | rozdíl druhých mocnin |
